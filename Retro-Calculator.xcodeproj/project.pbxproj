@@ -14,6 +14,9 @@
 		425740F21CCEABBB0041F908 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425740F01CCEABBB0041F908 /* LaunchScreen.storyboard */; };
 		425740FD1CCEABBB0041F908 /* Retro_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425740FC1CCEABBB0041F908 /* Retro_CalculatorTests.swift */; };
 		425741081CCEABBB0041F908 /* Retro_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425741071CCEABBB0041F908 /* Retro_CalculatorUITests.swift */; };
+		425741241CCEE7120041F908 /* 8-BIT WONDER.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 425741231CCEE7120041F908 /* 8-BIT WONDER.TTF */; };
+		4257412E1CCF05F10041F908 /* clear.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4257412D1CCF05F10041F908 /* clear.wav */; };
+		425741321CCF07100041F908 /* btn.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 425741311CCF07100041F908 /* btn.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +50,9 @@
 		425741031CCEABBB0041F908 /* Retro-CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Retro-CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		425741071CCEABBB0041F908 /* Retro_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Retro_CalculatorUITests.swift; sourceTree = "<group>"; };
 		425741091CCEABBB0041F908 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425741231CCEE7120041F908 /* 8-BIT WONDER.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = "8-BIT WONDER.TTF"; sourceTree = "<group>"; };
+		4257412D1CCF05F10041F908 /* clear.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = clear.wav; sourceTree = "<group>"; };
+		425741311CCF07100041F908 /* btn.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = btn.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		425740E61CCEABBB0041F908 /* Retro-Calculator */ = {
 			isa = PBXGroup;
 			children = (
+				425741231CCEE7120041F908 /* 8-BIT WONDER.TTF */,
+				4257412D1CCF05F10041F908 /* clear.wav */,
+				425741311CCF07100041F908 /* btn.mp3 */,
 				425740E71CCEABBB0041F908 /* AppDelegate.swift */,
 				425740E91CCEABBB0041F908 /* ViewController.swift */,
 				425740EB1CCEABBB0041F908 /* Main.storyboard */,
@@ -235,6 +244,9 @@
 				425740F21CCEABBB0041F908 /* LaunchScreen.storyboard in Resources */,
 				425740EF1CCEABBB0041F908 /* Assets.xcassets in Resources */,
 				425740ED1CCEABBB0041F908 /* Main.storyboard in Resources */,
+				4257412E1CCF05F10041F908 /* clear.wav in Resources */,
+				425741321CCF07100041F908 /* btn.mp3 in Resources */,
+				425741241CCEE7120041F908 /* 8-BIT WONDER.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -485,6 +497,7 @@
 				4257410E1CCEABBB0041F908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4257410F1CCEABBB0041F908 /* Build configuration list for PBXNativeTarget "Retro-CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +506,7 @@
 				425741111CCEABBB0041F908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		425741121CCEABBB0041F908 /* Build configuration list for PBXNativeTarget "Retro-CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +515,7 @@
 				425741141CCEABBB0041F908 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
